@@ -3,18 +3,18 @@
 #include<conio.h>  
   
 struct play {  
-            char name[10];  
+            char name[20];  
             int score;  
             int rat;       //star ratings  
 }p;  
   
-int high_score();  
-int start();  
-int help();  
+void high_score();  
+void start();  
+void help();  
   
-int main()  
+void main()  
 {  
-    //clr scr();  
+    clrscr();  
        int chc=0;  
   
     printf("Press 1 to start the game\n2 to see high scores \n3 to see game help\n0 to exit :   ");  
@@ -41,17 +41,17 @@ int main()
   getch();  
 }  
   
-int help()  
+void help()  
 {  
      int ch;  
   
      printf("\n\n ************************* GAME HELP *************************");  
      printf("\n -------------------------------------------------------------------------");  
      printf("\n .................... C program Quiz Game...........\n");  
-     printf("\n >> There will be a total of 10 questions");  
-     printf("\n >> You will be given 4 options and you have to press a, b,c or d for the");  
+     printf("\n >> There will be a total of 20 questions");  
+     printf("\n >> You will be given 4 options and you have to press 1, 2 ,3 or 4 for the");  
      printf("\n    right option");  
-     printf("\n >> Each question will carry 2 points");  
+     printf("\n >> Each question will carry 5 points");  
      printf("\n >> You will be asked questions continuously.");  
      printf("\n >> There is no negative marking for wrong answer");  
   
@@ -72,7 +72,7 @@ int help()
   
 }  
   
-int start()  
+void start()  
 {  
           int ans;  
           int count=0;  
@@ -95,7 +95,7 @@ int start()
         printf("******************* Welcome \" %s \"  to C Quiz Game *************************** \n\n", p.name);  
   
   
-        printf("Q(1).Grand Central Terminal, Park Avenue, New York is the world's \n a.largest railway station \t\tb.highest railway station\n c.longest railway station\t\t d.None of the above\n\n");  
+        printf("Q(1).Grand Central Terminal, Park Avenue, New York is the world's \n 1.largest railway station \t\t2.highest railway station\n 3.longest railway station\t\t 4.None of the above\n\n");  
   
         printf("Your answer: ");  
         scanf("%d",&ans);  
@@ -241,6 +241,148 @@ int start()
         {  
             printf("Wrong answer! Correct answer is 1. 1967\n\n");  
         }  
+  
+        printf("Q(11). Frames from one LAN can be transmitted to another LAN via the device \n1. Router\t2. Bridge\n3. Repeater\t4. Modem\n\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==2)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is 2. Bridge\n\n");  
+        }  
+  
+        printf("Q(12). Which of the following condition is used to transmit two packets over a medium at the same time?\n1. Contention\t2.  Collision\n3.   Synchronous\tD. Asynchronous\n\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==2)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is 2. Collision\n\n");  
+        }  
+  
+        printf("Q(13). What are the most commonly used transmission speeds in BPS used in data communication?\n1.   300\t2. 1200\n3.   2400\t4. 9600\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==4)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is 4. 9600\n\n");  
+        }  
+  
+        printf("Q(14).  Which of the following is used for modulation and demodulation?\n1. modem\t2. protocols\n3. gateway\t4. multiplexer\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==1)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is 1.modem\n\n");  
+        }  
+  
+        printf("Q(15). Contention is \n1. One or more conductors that serve as a common connection for a related group of devices\n2.   a continuous frequency capable of being modulated or impressed with a second signal\n3.  the condition when two or more stations attempt to use the same channel at the same time\n4.   a collection of interconnected functional units that provides a data communications service among stations attached to the network\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==3)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is  3. the condition when two or more stations attempt to use the same channel at the same time\n\n");  
+        }  
+  
+        printf("Q(16). When you ping the loopback address, a packet is sent where?\n1. On the network\n2. Down through the layers of the IP architecture and then up the layers again\n3. Across the wire\n4. through the loopback dongle\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==2)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is  2. Down through the layers of the IP architecture and then up the layers again\n\n");  
+        }  
+  
+        printf("Q(17). Which of the following TCP/IP protocol is used for transferring electronic mail messages from one machine to another?\n1. FTP\t2.    SNMP\n3. SMTP\t4. RPC\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==3)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is  3. SMTP\n\n");  
+        }  
+  
+        printf("Q(18). Which of the following device is used to connect two systems, especially if the systems use different protocols?\n1. hub\t2. bridge\n3. gateway\t4. repeater\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==3)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is  3. gateway\n\n");  
+        }  
+  
+        printf("Q(19). The slowest transmission speeds are those of\n1. twisted-pair wire\t2. coaxial cable\n3. fiber-optic cable\t4.   microwaves\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==1)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is  1. twisted-pair wire\n\n");  
+        }  
+  
+        printf("Q(20). What is the port number for NNTP?\n1. 119\t2. 80\n3. 79\t4. 70\n");  
+        printf("Your answer: ");  
+        scanf("%d",&ans);  
+        if(ans==1)  
+        {  
+            printf("Correct! +5 points\n\n");  
+  
+                ++count;  
+        }  
+        else  
+        {  
+            printf("Wrong answer! Correct answer is  1. 119 \n\n");  
+        }  
+  
+  
         //counting number of correct answers and, ratings  
         if(count > 0)  
         {  
@@ -285,10 +427,12 @@ int start()
         }  
 }  
   
-  int high_score()  
- {  
-  int ch;  
-  FILE *fp;  
+void high_score()  
+{  
+  
+    int ch;  
+  
+    FILE *fp;  
     if((fp=fopen("\\tmp\play2.txt", "r"))==NULL)  
           {  
                 //printf("error opening file\n");  

@@ -3,7 +3,7 @@
 #include<conio.h>  
   
 struct play {  
-            char name[20];  
+            char name[10];  
             int score;  
             int rat;       //star ratings  
 }p;  
@@ -44,8 +44,8 @@ void help()
      printf("\n\n ************************* GAME HELP *************************");  
      printf("\n -------------------------------------------------------------------------");  
      printf("\n .................... C program Quiz Game...........\n");  
-     printf("\n >> There will be a total of 20 questions");  
-     printf("\n >> You will be given 4 options and you have to press a, b ,c or d for the");  
+     printf("\n >> There will be a total of 10 questions");  
+     printf("\n >> You will be given 4 options and you have to press 1, 2 ,3 or 4 for the");  
      printf("\n    right option");  
      printf("\n >> Each question will carry 5 points");  
      printf("\n >> You will be asked questions continuously.");  
@@ -72,7 +72,7 @@ void start()
 {  
           int ans;  
           int count=0;  
-          char rating[20];  
+          char rating[10];  
   
           FILE *fp;  
   
@@ -85,7 +85,7 @@ void start()
         printf("\nPlease enter your name: ");  
         scanf("%s",p.name);  
         printf("******************* Welcome \" %s \"  to C Quiz Game *************************** \n\n", p.name);  
-         printf("Q(1).Grand Central Terminal, Park Avenue, New York is the world's \n 1.largest railway station \t\t2.highest railway station\n 3.longest railway station\t\t 4.None of the above\n\n");  
+         printf("Q(1).Which of the following billionire went to space in 2021 \n 1.Jeff Bezos \t\t2.Benard arnault\n 3.Elon Musk\t\t 4.none of these\n\n");  
          printf("Your answer: ");  
         scanf("%d",&ans);  
         if(ans==1)  
@@ -95,9 +95,9 @@ void start()
             }  
         else  
         {  
-            printf("Wrong answer! Correct answer is 1.largest railway station\n\n");  
+            printf("Wrong answer! Correct answer is 1.Jef Bezos\n\n");  
         }  
-        printf("Q(2) Entomology is the science that studies \n a.Behavior of human beings\t\t2.Insects \n3.The origin and history of technical and scientific terms\n4.The formation of rocks\n\n");  
+        printf("Q(2)Which United States president had his Facebook account suspended in 2021 ? \n 1.George Bush\t\t2.Donald Trump \n3.Barack Obama\n4.Joe Biden\n\n");  
         printf("Your answer: ");  
         scanf("%d",&ans);  
          if(ans==2)  
@@ -108,10 +108,10 @@ void start()
                 }  
         else  
         {  
-            printf("Wrong answer! Correct answer is 2.Insects\n\n");  
+            printf("Wrong answer! Correct answer is 2.Donald Trump\n\n");  
         }  
   
-        printf("Q(3) Eritrea, which became the 182nd member of the UN in 1993, is in the continent of \n1.Asia\t\t2.Africa\n3.Europe\t4.Australia\n\n");  
+        printf("Q(3) Which US city was the first to require people to show proof of Covid-19 vaccination to enter businesses? \n1.Los Angeles\t\t2.New York City\n3.Chicago\t4.San Antonio\n\n");  
   
         printf("Your answer: ");  
         scanf("%d",&ans);  
@@ -124,9 +124,9 @@ void start()
         }  
         else  
         {  
-            printf("Wrong answer! Correct answer is 2.Africa\n\n");  
+            printf("Wrong answer! Correct answer is 2.New York city\n\n");  
         }  
-         printf("Q(4).Garampani sanctuary is located at \n1.Junagarh, Gujarat\t2.Diphu, Assam\n3.Kohima, Nagaland\t4.Gangtok, Sikkim\n\n");  
+         printf("Q(4).Which country hosted the delayed 2020 Olympics in 2021? \n1.Chaina\t2.Japan\n3.Thailand\t4.India\n\n");  
         printf("Your answer: ");  
         scanf("%d",&ans);  
         if(ans==2)  
@@ -137,7 +137,7 @@ void start()
         }  
         else  
         {  
-            printf("Wrong answer! Correct answer is 2.Diphu, Assam\n\n");  
+            printf("Wrong answer! Correct answer is 2.Japan\n\n");  
         }  
         printf("Q(5).For which of the following disciplines is Nobel Prize awarded? \n1.Physics and Chemistry\t2.Physiology or Medicine\n3.Literature, Peace and Economics\t4.All of the above\n\n");  
         printf("Your answer: ");  
@@ -165,7 +165,7 @@ void start()
         {  
             printf("Wrong answer! Correct answer is 2.Nazi Party\n\n");  
         }  
-        printf("Q(7). FFC stands for \n1.Foreign Finance Corporation\t2.Film Finance Corporation\n3.Federation of Football Council\t4.None of the above\n\n");  
+        printf("Q(7). What anniversary is the Harry Potter film franchise celebrating in 2021? \n1.10th\t2.20th\n3.30th\t4.25th\n\n");  
         printf("Your answer: ");  
         scanf("%d",&ans);  
         if(ans==2)  
@@ -178,7 +178,7 @@ void start()
         {  
             printf("Wrong answer! Correct answer is 2.Film Finance Corporation\n\n");  
         }  
-        printf("Q(8). Fastest shorthand writer was \n1.Dr. G. D. Bist\t2. J.R.D. Tata\n3. J.M. Tagore\t4. Khudada Khan\n\n");  
+        printf("Q(8). In 2021, who was the first woman of color to win an Oscar for Best Director \n1.Chloé Zhao for Nomadland\t2.Kelly Reichardt for First Cow\n3.Regina King for One Night in Miami\t4.Lorene Scafaria for Hustlers\n\n");  
         printf("Your answer: ");  
         scanf("%d",&ans);  
         if(ans==1)  
@@ -189,7 +189,7 @@ void start()
         }  
         else  
         {  
-            printf("Wrong answer! Correct answer is 1.Dr. G. D. Bist\n\n");  
+            printf("Wrong answer! Correct answer is 1.Chloé Zhao for Nomadlandt\n\n");  
         }  
   
         printf("Q(9). Epsom (England) is the place associated with \n1.Horse racing\t2.Polo\n3.Shooting\t4.Snooker\n\n");  
@@ -206,7 +206,7 @@ void start()
             printf("Wrong answer! Correct answer is 1.Horse racing\n\n");  
         }  
   
-        printf("Q(10). First human heart transplant operation conducted by Dr. Christian Bernard on Louis Washkansky, was conducted in \n1.1967\t2.1968\n3.1958\t4.1922\n\n");  
+        printf("Q(10).How many new IPL teams are joining in 2022 IPL league? \n1.2\t2.1\n3.3\t4.4\n\n");  
         printf("Your answer: ");  
         scanf("%d",&ans);  
         if(ans==1)  
@@ -217,7 +217,7 @@ void start()
         }  
         else  
         {  
-            printf("Wrong answer! Correct answer is 1. 1967\n\n");  
+            printf("Wrong answer! Correct answer is 1.2\n\n");  
         }  
         //counting number of correct answers and, ratings  
         if(count > 0)  
@@ -226,27 +226,27 @@ void start()
   
                 p.score=count*5;  
   
-                if(p.score >= 80)  
+                if(p.score >= 45)  
                 {  
                     printf("Rating: * * * * *");  
                     p.rat=5;  
                 }  
-                else if(p.score >= 60 && p.score < 80)  
+                else if(p.score >= 35 && p.score < 45)  
                 {  
                     printf("Rating: * * * *");  
                     p.rat=4;  
                 }  
-                else if(p.score >= 40 && p.score < 60)  
+                else if(p.score >= 25 && p.score < 35)  
                 {  
                     printf("Rating: * * *");  
                   p.rat=3;  
                 }  
-                else if(p.score >= 20 && p.score < 40)  
+                else if(p.score >= 15 && p.score < 25)  
                 {  
                     printf("Rating: * *");  
                     p.rat=2;  
                 }  
-                else if(p.score < 20)  
+                else if(p.score < 10)  
                 {  
                     printf("Rating: *");  
                      p.rat=1;  

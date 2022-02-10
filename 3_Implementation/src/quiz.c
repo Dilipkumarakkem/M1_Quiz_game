@@ -269,7 +269,7 @@ void high_score()
     int ch;  
   
     FILE *fp;  
-    if((fp=fopen("\tmp\play2.txt", "r"))==NULL)  
+    if((fp=fopen("\\tmp\play2.txt", "r"))==NULL)  
           {  
                 //printf("error opening file\n");  
                 printf("\nNo games played yet!\n");  

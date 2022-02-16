@@ -9,4 +9,38 @@ This program will maintain a list of random questions & options.
 According to the answer given by the user it will check with the true answers. 
 After checking true answers, it will display the result by true or false with grades. 
 If false then there is negative marking in the game & if true then the grades/score will be incremented. 
-At the end result will be displayed with final score.
+
+Features of the quiz:
+
+All questions are multiple choice question.
+Each question is displayed.
+Questions are displayed same for every user.
+If the user by-mistake presses refresh or go back.
+A message will be displayed after every attempted question whether the answer was correct or incorrect.
+If the question is correct they will get the +5 points and the question will wrong no points will given to them.
+At the end result will be displayed with final score and stars how many won.
+
+Administrative features:
+
+Only admin can add questions.
+Admin can add questions and modify them until they are not marked as Has been published?
+Once a question has been published, it can neither be modified nor can be accessed. Admin can only see a list of questions.
+Admin can search questions by question text or choice text.
+Admin can filter questions based on whether the questions have been published or not.
+
+4Ws and 1H:
+
+4WS:
+1W.It shold be used in schools, colleges,Institutions,and many more places.
+2W.It can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.
+3W.There is no paticular time to play this game.
+4W.A quiz is a form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects.
+
+1H:
+All questions are multiple choice question.
+Each question is displayed.
+Questions are displayed same for every user.
+If the user by-mistake presses refresh or go back.
+A message will be displayed after every attempted question whether the answer was correct or incorrect.
+If the question is correct they will get the +5 points and the question will wrong no points will given to them.
+At the end result will be displayed with final score and stars how many won.

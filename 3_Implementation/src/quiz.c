@@ -299,5 +299,4 @@ void high_score()
     {  
         exit(1);  
     }  
-  
 } 

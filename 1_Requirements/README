@@ -1,46 +1,144 @@
-Introduction:
 
+
+Folder                   | Description
+-------------------------| -----------------------------------------
+`0_Certificates`         | Certificates earned during the course
+`1_Requirements`         | Documents detailing requirements and research
+`2_Architecture`         | Behavioural and Structural UML Diagrams(Both High Level and Low Level)
+`3_Implemenatation `     | All code and documentation
+`4_Test plan and output `| Documents with test plans and procedures and Output
+`5_Report`               | Documentation of whole project
+`6_ImagesAndVideos`      | Code Execution Images and Videos
+
+
+About the Quiz Game
+1.Table of contents
+        I.1 Introduction
+        I.2 Quiz game developed in c
+        I.3 Features of the quiz
+2.Requirements
+        2.1 High Level Requirements
+        2.2 Low Level Requirements
+3.4WS & 1H
+4.Architecture
+5.SWOT Analysis
+6.Test Plan and Output
+7.Objectives
+        7.1 Administrative features
+        7.2 Future Developments
+8.Othres
+               8.1  Features
+
+
+
+
+
+
+
+Introduction:
 A quiz is a form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects. 
 Quizzes can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.
 
 Quiz Game developed in C:
-
-This program will maintain a list of random questions & options. 
-According to the answer given by the user it will check with the true answers. 
-After checking true answers, it will display the result by true or false with grades. 
-If false then there is negative marking in the game & if true then the grades/score will be incremented. 
+    - This program will maintain a list of random questions & options. 
+    - According to the answer given by the user it will check with the true answers. 
+    - After checking true answers, it will display the result by true or false with grades. 
+    - If false then there is negative marking in the game & if true then the grades/score will be incremented. 
 
 Features of the quiz:
+    - All questions are multiple choice question.
+    - Each question is displayed.
+    - Questions are displayed same for every user.
+    - If the user by-mistake presses refresh or go back.
+    - A message will be displayed after every attempted question whether the answer was correct or incorrect.
+    - If the question is correct they will get the +5 points and the question will wrong no points will given to them.
+    - At the end result will be displayed with final score and stars how many won.
 
-All questions are multiple choice question.
-Each question is displayed.
-Questions are displayed same for every user.
-If the user by-mistake presses refresh or go back.
-A message will be displayed after every attempted question whether the answer was correct or incorrect.
-If the question is correct they will get the +5 points and the question will wrong no points will given to them.
-At the end result will be displayed with final score and stars how many won.
+Requirements:
+High Level Requirements:
 
-Administrative features:
+      HLR-1 | It should be general Knowledgeble questions
+      HLR-2 | It should be no time limit for every question to answer
+      HLR-3 | It must be available in all geners
+      HLR-4 | It should be graded based that it helps for the users to identify their knowledge
+      HLR-5 | It should be users gets points for every correct answer
 
-Only admin can add questions.
-Admin can add questions and modify them until they are not marked as Has been published?
-Once a question has been published, it can neither be modified nor can be accessed. Admin can only see a list of questions.
-Admin can search questions by question text or choice text.
-Admin can filter questions based on whether the questions have been published or not.
+
+
+
+Low Level Requirements:
+
+     LLR-1  |It should be reduce the delay for records updation after completion of game
+     LLR-2  |It should be user friendliness in all possible ways
+     LLR-3  |It should be in maintainance changes easy
+     LLR-4  |It is possible to use in schools,colleges,Institutions,and so many places
+     LLR-5  |It should be no negative marking 
+
+
 
 4Ws and 1H:
 
 4WS:
-1W.It shold be used in schools, colleges,Institutions,and many more places.
-2W.It can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.
-3W.There is no paticular time to play this game.
-4W.A quiz is a form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects.
+     W-1  |It shold be used in schools, colleges,Institutions,and many more places.
+     W-2  |It can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.
+     W-3  |There is no paticular time to play this game.
+     W-4  |A quiz is a form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects.
+
 
 1H:
-All questions are multiple choice question.
-Each question is displayed.
-Questions are displayed same for every user.
-If the user by-mistake presses refresh or go back.
-A message will be displayed after every attempted question whether the answer was correct or incorrect.
-If the question is correct they will get the +5 points and the question will wrong no points will given to them.
-At the end result will be displayed with final score and stars how many won.
+    - All questions are multiple choice question.
+    - Each question is displayed.
+    - Questions are displayed same for every user.
+    - If the user by-mistake presses refresh or go back.
+    - A message will be displayed after every attempted question whether the answer was correct or incorrect.
+    - If the question is correct they will get the +5 points and the question will wrong no points will given to them.
+    - At the end result will be displayed with final score and stars how many won.
+
+
+
+ 
+
+  Architecture:
+
+
+SWOT Analysis:
+
+
+Testplan and output:
+
+
+
+Objectives to proposed the quiz game:
+    a) To reduce workload of staff or students.
+    b) To reduce the delay in processing time.
+    c) To reduce the delay in records updation.
+    d) To provide the user-friendliness in all possible ways.
+    e) To provide greater flexibility.
+
+
+Administrative features:
+
+    a) Only admin can add questions.
+    b) Admin can add questions and modify them until they are not marked as Has been published?
+    c) Once a question has been published, it can neither be modified nor can be accessed. Admin can only 
+    d) see a list of questions.
+    e) Admin can search questions by question text or choice text.
+    f) Admin can filter questions based on whether the questions have been published or not.
+
+Future Development:
+
+    a) Timer in Quiz
+    b) For All Questions only 1 File
+    c) Display write & wrong answers of every questions at the end.
+    d) Advanced algorithms & better interface.
+    e) Save per users details along with his final score in a file.
+
+          Others:
+Features:
+    a) Educational (General knowledge).
+    b) Added comments above code so it will help you understand code much better
+    c) Correct answer +5 coin and rating
+    d) No time limit
+    e) Random questions at each play 
+    f) Good and Extensible.
+    g) Can be played every one.

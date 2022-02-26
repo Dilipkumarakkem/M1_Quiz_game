@@ -1,9 +1,17 @@
-Features:
+Future Development:
 
-Educational (General knowledge).
-Added comments above code so it will help you understand code much better
-Correct answer +5 coin and rating
-No time limit
-Random questions at each play 
-Good and Extensible.
-Can be played every one.
+    a) Timer in Quiz
+    b) For All Questions only 1 File
+    c) Display write & wrong answers of every questions at the end.
+    d) Advanced algorithms & better interface.
+    e) Save per users details along with his final score in a file.
+
+          Others:
+Features:
+    a) Educational (General knowledge).
+    b) Added comments above code so it will help you understand code much better
+    c) Correct answer +5 coin and rating
+    d) No time limit
+    e) Random questions at each play 
+    f) Good and Extensible.
+    g) Can be played every one.

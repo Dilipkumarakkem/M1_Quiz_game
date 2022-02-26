@@ -1,16 +1,3 @@
-
-
-Folder                   | Description
--------------------------| -----------------------------------------
-`0_Certificates`         | Certificates earned during the course
-`1_Requirements`         | Documents detailing requirements and research
-`2_Architecture`         | Behavioural and Structural UML Diagrams(Both High Level and Low Level)
-`3_Implemenatation `     | All code and documentation
-`4_Test plan and output `| Documents with test plans and procedures and Output
-`5_Report`               | Documentation of whole project
-`6_ImagesAndVideos`      | Code Execution Images and Videos
-
-
 About the Quiz Game
 1.Table of contents
         I.1 Introduction
@@ -25,9 +12,7 @@ About the Quiz Game
 6.Test Plan and Output
 7.Objectives
         7.1 Administrative features
-        7.2 Future Developments
-8.Othres
-               8.1  Features
+       
 
 
 
@@ -68,21 +53,23 @@ High Level Requirements:
 
 Low Level Requirements:
 
-     LLR-1  |It should be reduce the delay for records updation after completion of game
-     LLR-2  |It should be user friendliness in all possible ways
-     LLR-3  |It should be in maintainance changes easy
-     LLR-4  |It is possible to use in schools,colleges,Institutions,and so many places
-     LLR-5  |It should be no negative marking 
+     LLR-1  |  It should be reduce the delay for records updation after completion of game
+     LLR-2  |  It should be user friendliness in all possible ways
+     LLR-3  |  It should be in maintainance changes easy
+     LLR-4  |  It is possible to use in schools,colleges,Institutions,and so many places
+     LLR-5  |  It should be no negative marking 
 
 
 
 4Ws and 1H:
 
 4WS:
-     W-1  |It shold be used in schools, colleges,Institutions,and many more places.
-     W-2  |It can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.
-     W-3  |There is no paticular time to play this game.
-     W-4  |A quiz is a form of game or mind sport in which players attempt to answer questions correctly about a certain or variety of subjects.
+    
+     W-1  |  It shold be used in schools, colleges,Institutions,and many more places.
+     W-2  |  It can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, or skills.
+     W-3  |  There is no paticular time to play this game.
+     W-4  |  A quiz is a form of game or mind sport in which players attempt to answer questions correctly about a certain or variety   
+             of subjects.
 
 
 1H:
@@ -102,6 +89,24 @@ Low Level Requirements:
 
 
 SWOT Analysis:
+
+Strengths
+
+User can be create a game at any time
+It is used in any place like schools,colleges, etc....
+
+Weakenesses:
+
+It has limited number of questions
+
+Threats:
+
+Details must be correct while attempting the game otherwise loose the points and rating
+
+Opportunities:
+
+It is in multiple choice based game and it is very intresting game
+
 
 
 Testplan and output:
@@ -124,21 +129,3 @@ Administrative features:
     d) see a list of questions.
     e) Admin can search questions by question text or choice text.
     f) Admin can filter questions based on whether the questions have been published or not.
-
-Future Development:
-
-    a) Timer in Quiz
-    b) For All Questions only 1 File
-    c) Display write & wrong answers of every questions at the end.
-    d) Advanced algorithms & better interface.
-    e) Save per users details along with his final score in a file.
-
-          Others:
-Features:
-    a) Educational (General knowledge).
-    b) Added comments above code so it will help you understand code much better
-    c) Correct answer +5 coin and rating
-    d) No time limit
-    e) Random questions at each play 
-    f) Good and Extensible.
-    g) Can be played every one.

@@ -1,16 +1,22 @@
+
 /**
- * @file quiz.c
- * @author Akkem Dilipkumar
- * @brief it have defination of all functions which are called in main function
- * @version 1.1
+ * @file main.c
+ * @author your name Akkem Dilipkumar
+ * @brief A quiz is a form of game or mind sport in which players attempt to answer 
+ * questions correctly about a certain or variety of subjects. 
+ * Quizzes  can  be  used  as  a  brief  assessment  in  education  and  similar  
+ * fields  to  measure  growth  in  knowledge, abilities, or skills.
+ * @version 1.1.1
  * @date 2022-02-28
  * 
  * @copyright Copyright (c) 2022
  * 
  */
-
-#include<stdio.h>   
+#include<stdio.h>  
+#include<stdlib.h>  
+#include<conio.h>  
 #include"quiz.h"
+  
 struct play {  
             char name[10];  
             int score;  

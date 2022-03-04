@@ -6,8 +6,8 @@
  * questions correctly about a certain or variety of subjects. 
  * Quizzes  can  be  used  as  a  brief  assessment  in  education  and  similar  
  * fields  to  measure  growth  in  knowledge, abilities, or skills.
- * @version 1.1.1
- * @date 2022-02-28
+ * @version 1.1
+ * @date 2022-02-26
  * 
  * @copyright Copyright (c) 2022
  * 
